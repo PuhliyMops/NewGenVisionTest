@@ -3,17 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Мой первый проект</title>
+    <title>New Gen Vision Test</title>
     <link rel="stylesheet" href="style/style.css">
 </head>
+
 <body>
-    <div class="promo">
-        <div class="promo-inner">
-            <h1 class="promo-ttl">Заголовок сайта</h1>
-            <p class="promo-slogan">Описание сайта, типа тут все самое офигенное и опупенное!</p>
+  <header class="header">
+    <div class="header-inner">
+      <div class="header-wrap">
+      <h1 class="header-title">Тут какой-нибудь nav</h1>
+      <p class="header-slogan">и еще можно выпадающую менюшку</p>
+      </div>
+    </div>
+  </header>
+
+<main class="main">
+  <section class="courses">
+    <div class="courses-inner">
+      <h1 class="courses-title">Наши курсы</h1>
+        <div class="courses-list">
+            <ul class="courses-menu">
+              <li> <a href="#" class="courses-item j-courses-item" data-filter="lowCost">от 100 до 200 рублей</a>
+              </li>
+              <li><a href="#" class="courses-item j-courses-item" data-filter="midCost"> до 400 рублей</a>
+              </li>
+              <li> <a href="#" class="courses-item j-courses-item" data-filter="highCost">от 500 рублей</a>
+              </li>
+            </ul>
+        </div>
+        <div class="courses-wrap">
+          <div class="course" data-type="lowCost">
+            <a href="#">
+              Курс такой
+            </a>
+          </div>
+
+          <div class="course" data-type="midCost">
+            <a href="#">
+              Курс сякой
+            </a>
+          </div>
+
+          <div class="course" data-type="highCost">
+            <a href="#">
+              Курс этакий
+            </a>
+          </div>
         </div>
     </div>
 
-    <script src="scripts/script.js"></script>
+</section>
+</main>
+
+<footer class="foooter">
+
+</footer>
+  <script src="scripts/script.js"></script>
 </body>
 </html>

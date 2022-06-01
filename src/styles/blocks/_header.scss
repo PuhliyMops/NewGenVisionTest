@@ -1,0 +1,22 @@
+.header {
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 1000;
+  padding: 16px 0;
+  background-color: black;
+}
+
+.header-inner {
+  max-width: 1278px;
+  margin: 0 auto;
+  border: 1px solid #f00;
+}
+
+.header-title {
+  color: white;
+}
+
+.header-slogan {
+  color: white;
+}
